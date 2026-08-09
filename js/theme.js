@@ -2,9 +2,9 @@ const THEME_KEY = "tanmia-theme";
 
 function getTheme() {
   try {
-    return localStorage.getItem(THEME_KEY) || "light";
+    return localStorage.getItem(THEME_KEY) || "dark";
   } catch {
-    return "light";
+    return "dark";
   }
 }
 
